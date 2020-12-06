@@ -4,7 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 export default function Skills() {
   return (
     <section className="text-gray-700 body-font">
-      <div className="container px-5 py-24 mx-auto">
+      <div className="container px-5 py-24 mx-auto ">
         <div className="text-center mb-20">
           {/* <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
             Raw Denim Heirloom Man Braid
@@ -15,7 +15,7 @@ export default function Skills() {
             pug.
           </p> */}
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 justify-center ">
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <h2 className="font-medium title-font tracking-widest text-indigo-600 mb-4 text-lg text-center sm:text-left">
               Programming
