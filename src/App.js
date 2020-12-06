@@ -7,7 +7,7 @@ import About from "./Screen/About";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App antialiased ">
       <Router>
         <Header />
         <Switch>

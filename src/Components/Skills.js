@@ -219,7 +219,7 @@ export default function Skills() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                material-UI, react-bootstrap, tailwind
+                material-UI, react-bootstrap, tailwindcss
               </a>
               <a className="mb-2">
                 <span className="bg-purple-100 text-purple-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -399,7 +399,12 @@ export default function Skills() {
           </div>
         </div>
         <div className="flex my-24 justify-center">
-          <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-300 focus:outline-none">
+          <a
+            className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-300 focus:outline-none"
+            href="https://play.google.com/store/apps/developer?id=Goncalo+Duarte"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -411,13 +416,18 @@ export default function Skills() {
             <span className="ml-4 flex items-start flex-col leading-none">
               <span className="title-font font-medium">Google Play</span>
             </span>
-          </button>
-          <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-300 focus:outline-none">
+          </a>
+          <a
+            className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-300 focus:outline-none"
+            href="https://github.com/GoncaloDuarte98"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <AiFillGithub size={30} />
             <span className="ml-4 flex items-start flex-col leading-none">
               <span className="title-font font-medium">Github</span>
             </span>
-          </button>
+          </a>
         </div>
       </div>
     </section>
