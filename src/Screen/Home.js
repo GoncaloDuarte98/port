@@ -7,7 +7,7 @@ export default function Home() {
     <section className="text-gray-700 body-font">
       <div className="container mx-auto flex flex-col px-5 py-8 justify-center items-center">
         <img
-          className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded rounded-full"
+          className="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded border-b-8 border-purple-700 rounded-full shadow-xl"
           alt="hero"
           src={CVphoto}
         />
@@ -30,7 +30,7 @@ export default function Home() {
                 <span className="title-font font-medium">Linkedin</span>
               </span>
             </button>
-            <button className="bg-gray-200 inline-flex py-3 px-5 rounded-lg items-center m-2 hover:bg-gray-300 focus:outline-none">
+            <button className="bg-gray-200 start-200 inline-flex py-3 px-5 rounded-lg items-center m-2 hover:bg-gray-300 focus:outline-none">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
