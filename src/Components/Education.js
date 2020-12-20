@@ -3,7 +3,6 @@ import React from "react";
 export default function Education() {
   return (
     <section className="text-gray-700 body-font">
-     
       <div className="container px-5 py-16 mx-auto flex flex-wrap">
         <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
           <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -20,7 +19,7 @@ export default function Education() {
                 Twelve years of schooling – European Qualification Framework
                 (EQF) – Level 4. Completed school in 2016 taking part in a
                 project called “Pós-Zarco” from the 10th to the 12th which
-                grouped the best students from the school in one className
+                grouped the best students from the school in one class
               </p>
             </div>
           </div>
