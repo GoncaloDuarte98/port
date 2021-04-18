@@ -154,7 +154,7 @@ export default function Skills() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                ReactJS / React-Native
+                ReactJS / React-Native / Basic Next.js
               </a>
               <a className="mb-2">
                 <span className="bg-purple-100 text-purple-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
@@ -202,7 +202,7 @@ export default function Skills() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Basic Angular
+                Basic Vue.js
               </a>
 
               <a className="mb-2">

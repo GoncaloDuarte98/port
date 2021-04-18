@@ -9,11 +9,6 @@ import MetaTags from "react-meta-tags";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MetaTags>
-      <title>Gonçalo Duarte</title>
-      <meta name="description" content="Gonçalo Duarte personal portfolio" />
-      <meta property="og:title" content="Gonçalo Duarte" />
-    </MetaTags>
     <App />
   </React.StrictMode>,
   document.getElementById("root")
