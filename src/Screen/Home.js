@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiOutlineLinkedin } from "react-icons/ai";
-import CVphoto from "../res/biggercvwh-min.png";
+import CVphoto from "../res/biggercvwh-min.jpg";
 import About from "./About";
 import "./Anims.css";
 import { Link } from "react-router-dom";
